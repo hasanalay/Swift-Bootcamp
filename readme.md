@@ -1,3 +1,10 @@
+# [techcareer.net](https://www.techcareer.net/) Swift Bootcamp
 Merhaba, TechCareerNet bünyesinde katıldığım Swift programlama dili 
-bootcamp'indeki ödevleri ve çalışmaları yayınlayacağım repository'e hoş 
-geldiniz.
+bootcampindeki ödevleri ve çalışmaları yayınlayacağım repositorye hoş 
+geldiniz. 
+
+
+## Homeworks
+
+1- [Homework1](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Homework1.playground/Contents.swift)
+
