@@ -1,5 +1,5 @@
 # [techcareer.net](https://www.techcareer.net/) Swift Bootcamp
-Merhaba, TechCareerNet bünyesinde katıldığım Swift programlama dili 
+Merhaba, techcareer.net bünyesinde katıldığım Swift programlama dili 
 bootcampindeki ödevleri ve çalışmaları yayınlayacağım repositorye hoş 
 geldiniz. 
 
