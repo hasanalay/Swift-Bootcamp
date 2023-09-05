@@ -4,12 +4,13 @@
 
 ## Courses
 - Day 1
-    - [Variables](https://github.com/hasanalay/Swift-Bootcamp/blob/main/DegiskenOlusturma.playground/Contents.swift)
+    - [Variables](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Playgrounds/DegiskenOlusturma.playground/Contents.swift)
+      
 - Day 2
-  - [Operators](https://github.com/hasanalay/Swift-Bootcamp/blob/main/StandartProgramlama.playground/Contents.swift)
-  - [Optionals](https://github.com/hasanalay/Swift-Bootcamp/blob/main/OptionalKullanimi.playground/Contents.swift)
-  - [OOP-1](https://github.com/hasanalay/Swift-Bootcamp/blob/main/NesneTabanli1.playground/Contents.swift)
+  - [Operators](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Playgrounds/StandartProgramlama.playground/Contents.swift)
+  - [Optionals](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Playgrounds/OptionalKullanimi.playground/Contents.swift)
+  - [OOP-1](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Playgrounds/NesneTabanli1.playground/Contents.swift)
 ## Homeworks
 
-1- [Homework1](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Homework1.playground/Contents.swift)
+1- [Homework1](https://github.com/hasanalay/Swift-Bootcamp/blob/main/Homeworks/Homework1.playground/Contents.swift)
 
