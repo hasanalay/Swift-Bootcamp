@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.standardAppearance = appearence
         navigationController?.navigationBar.compactAppearance = appearence
         navigationController?.navigationBar.scrollEdgeAppearance = appearence
+        
+        // Left  - leading olarak kullanılır
+        // Right - trailing olarak kullanılır
     }
     
 

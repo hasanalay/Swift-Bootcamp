@@ -67,17 +67,64 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1Q-4C-euQ">
+                                <rect key="frame" x="172" y="380.5" width="70.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZP-QP-PQo">
+                                <rect key="frame" x="165" y="423" width="84.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meat Lover, get ready to meet your Pizza!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWE-XH-zn8">
+                                <rect key="frame" x="32" y="465.5" width="350" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 5.98" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHb-LS-fVf">
+                                <rect key="frame" x="16" y="784.5" width="116.5" height="45.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bko-T4-wkV">
+                                <rect key="frame" x="206.5" y="787.5" width="191.5" height="39.5"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CHART">
+                                    <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="AWE-XH-zn8" firstAttribute="top" secondItem="jZP-QP-PQo" secondAttribute="bottom" constant="16" id="7IM-Pf-ecj"/>
+                            <constraint firstItem="AWE-XH-zn8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="7mk-fi-X4j"/>
                             <constraint firstItem="Xtk-YN-4FK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9dQ-K5-zQu"/>
+                            <constraint firstItem="bko-T4-wkV" firstAttribute="centerY" secondItem="sHb-LS-fVf" secondAttribute="centerY" id="BU2-2c-mms"/>
+                            <constraint firstItem="u1Q-4C-euQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CYG-7R-G16"/>
                             <constraint firstItem="6at-Ft-rPK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L6s-sv-b66"/>
+                            <constraint firstItem="u1Q-4C-euQ" firstAttribute="top" secondItem="Xtk-YN-4FK" secondAttribute="bottom" constant="16" id="Npa-Be-leN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bko-T4-wkV" secondAttribute="trailing" constant="16" id="PyT-Tb-tov"/>
                             <constraint firstItem="mYx-Dw-kcw" firstAttribute="top" secondItem="6at-Ft-rPK" secondAttribute="bottom" constant="16" id="ZvF-Yv-e0U"/>
+                            <constraint firstItem="jZP-QP-PQo" firstAttribute="top" secondItem="u1Q-4C-euQ" secondAttribute="bottom" constant="16" id="bFz-it-dxt"/>
+                            <constraint firstItem="jZP-QP-PQo" firstAttribute="centerX" secondItem="u1Q-4C-euQ" secondAttribute="centerX" id="d2L-XW-9Ld"/>
+                            <constraint firstAttribute="trailing" secondItem="AWE-XH-zn8" secondAttribute="trailing" constant="32" id="heB-eR-5wT"/>
                             <constraint firstItem="Xtk-YN-4FK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j8M-xS-HwK"/>
                             <constraint firstItem="mYx-Dw-kcw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kzw-j2-Zxl"/>
                             <constraint firstItem="Xtk-YN-4FK" firstAttribute="top" secondItem="mYx-Dw-kcw" secondAttribute="bottom" constant="16" id="lHa-Wf-Uag"/>
+                            <constraint firstItem="sHb-LS-fVf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mP2-tC-58M"/>
                             <constraint firstItem="6at-Ft-rPK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="uPf-nh-zWG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sHb-LS-fVf" secondAttribute="bottom" constant="32" id="yyx-UN-JUA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kp7-tD-qpN"/>
@@ -108,10 +155,13 @@
     <resources>
         <image name="yemekResim" width="150" height="150"/>
         <namedColor name="anaRenk">
-            <color red="0.79607843137254897" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.79600000381469727" green="0.125" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="yaziRenk1">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.3880000114440918" green="0.3880000114440918" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
