@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4534F7012AB760AB00023F48 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4534F7002AB760AB00023F48 /* Kisiler.swift */; };
-		455BC41F2AB3783D00001B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455BC41E2AB3783D00001B11 /* AppDelegate.swift */; };
-		455BC4212AB3783D00001B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455BC4202AB3783D00001B11 /* SceneDelegate.swift */; };
-		455BC4232AB3783D00001B11 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455BC4222AB3783D00001B11 /* Anasayfa.swift */; };
-		455BC4262AB3783D00001B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455BC4242AB3783D00001B11 /* Main.storyboard */; };
-		455BC4282AB3783E00001B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455BC4272AB3783E00001B11 /* Assets.xcassets */; };
-		455BC42B2AB3783E00001B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455BC4292AB3783E00001B11 /* LaunchScreen.storyboard */; };
-		455BC4332AB37D3800001B11 /* OyunEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455BC4322AB37D3800001B11 /* OyunEkrani.swift */; };
-		455BC4352AB37DB900001B11 /* SonucEkrani.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455BC4342AB37DB900001B11 /* SonucEkrani.swift */; };
+		4534F7352AB778B700023F48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4534F7342AB778B700023F48 /* AppDelegate.swift */; };
+		4534F7372AB778B700023F48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4534F7362AB778B700023F48 /* SceneDelegate.swift */; };
+		4534F7392AB778B700023F48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4534F7382AB778B700023F48 /* ViewController.swift */; };
+		4534F73C2AB778B700023F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4534F73A2AB778B700023F48 /* Main.storyboard */; };
+		4534F73E2AB778B800023F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4534F73D2AB778B800023F48 /* Assets.xcassets */; };
+		4534F7412AB778B800023F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4534F73F2AB778B800023F48 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4534F7002AB760AB00023F48 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
-		455BC41B2AB3783D00001B11 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		455BC41E2AB3783D00001B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		455BC4202AB3783D00001B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		455BC4222AB3783D00001B11 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
-		455BC4252AB3783D00001B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		455BC4272AB3783E00001B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		455BC42A2AB3783E00001B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		455BC42C2AB3783E00001B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		455BC4322AB37D3800001B11 /* OyunEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunEkrani.swift; sourceTree = "<group>"; };
-		455BC4342AB37DB900001B11 /* SonucEkrani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkrani.swift; sourceTree = "<group>"; };
+		4534F7312AB778B700023F48 /* WidgetKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4534F7342AB778B700023F48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4534F7362AB778B700023F48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4534F7382AB778B700023F48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4534F73B2AB778B700023F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4534F73D2AB778B800023F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4534F7402AB778B800023F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4534F7422AB778B800023F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		455BC4182AB3783D00001B11 /* Frameworks */ = {
+		4534F72E2AB778B700023F48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,75 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		455BC4122AB3783D00001B11 = {
+		4534F7282AB778B700023F48 = {
 			isa = PBXGroup;
 			children = (
-				455BC41D2AB3783D00001B11 /* CalismaYapisi */,
-				455BC41C2AB3783D00001B11 /* Products */,
+				4534F7332AB778B700023F48 /* WidgetKullanimi */,
+				4534F7322AB778B700023F48 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		455BC41C2AB3783D00001B11 /* Products */ = {
+		4534F7322AB778B700023F48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				455BC41B2AB3783D00001B11 /* CalismaYapisi.app */,
+				4534F7312AB778B700023F48 /* WidgetKullanimi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		455BC41D2AB3783D00001B11 /* CalismaYapisi */ = {
+		4534F7332AB778B700023F48 /* WidgetKullanimi */ = {
 			isa = PBXGroup;
 			children = (
-				455BC41E2AB3783D00001B11 /* AppDelegate.swift */,
-				455BC4202AB3783D00001B11 /* SceneDelegate.swift */,
-				455BC4222AB3783D00001B11 /* Anasayfa.swift */,
-				455BC4322AB37D3800001B11 /* OyunEkrani.swift */,
-				455BC4342AB37DB900001B11 /* SonucEkrani.swift */,
-				4534F7002AB760AB00023F48 /* Kisiler.swift */,
-				455BC4242AB3783D00001B11 /* Main.storyboard */,
-				455BC4272AB3783E00001B11 /* Assets.xcassets */,
-				455BC4292AB3783E00001B11 /* LaunchScreen.storyboard */,
-				455BC42C2AB3783E00001B11 /* Info.plist */,
+				4534F7342AB778B700023F48 /* AppDelegate.swift */,
+				4534F7362AB778B700023F48 /* SceneDelegate.swift */,
+				4534F7382AB778B700023F48 /* ViewController.swift */,
+				4534F73A2AB778B700023F48 /* Main.storyboard */,
+				4534F73D2AB778B800023F48 /* Assets.xcassets */,
+				4534F73F2AB778B800023F48 /* LaunchScreen.storyboard */,
+				4534F7422AB778B800023F48 /* Info.plist */,
 			);
-			path = CalismaYapisi;
+			path = WidgetKullanimi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		455BC41A2AB3783D00001B11 /* CalismaYapisi */ = {
+		4534F7302AB778B700023F48 /* WidgetKullanimi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 455BC42F2AB3783E00001B11 /* Build configuration list for PBXNativeTarget "CalismaYapisi" */;
+			buildConfigurationList = 4534F7452AB778B800023F48 /* Build configuration list for PBXNativeTarget "WidgetKullanimi" */;
 			buildPhases = (
-				455BC4172AB3783D00001B11 /* Sources */,
-				455BC4182AB3783D00001B11 /* Frameworks */,
-				455BC4192AB3783D00001B11 /* Resources */,
+				4534F72D2AB778B700023F48 /* Sources */,
+				4534F72E2AB778B700023F48 /* Frameworks */,
+				4534F72F2AB778B700023F48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CalismaYapisi;
-			productName = CalismaYapisi;
-			productReference = 455BC41B2AB3783D00001B11 /* CalismaYapisi.app */;
+			name = WidgetKullanimi;
+			productName = WidgetKullanimi;
+			productReference = 4534F7312AB778B700023F48 /* WidgetKullanimi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		455BC4132AB3783D00001B11 /* Project object */ = {
+		4534F7292AB778B700023F48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					455BC41A2AB3783D00001B11 = {
+					4534F7302AB778B700023F48 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 455BC4162AB3783D00001B11 /* Build configuration list for PBXProject "CalismaYapisi" */;
+			buildConfigurationList = 4534F72C2AB778B700023F48 /* Build configuration list for PBXProject "WidgetKullanimi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 455BC4122AB3783D00001B11;
-			productRefGroup = 455BC41C2AB3783D00001B11 /* Products */;
+			mainGroup = 4534F7282AB778B700023F48;
+			productRefGroup = 4534F7322AB778B700023F48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				455BC41A2AB3783D00001B11 /* CalismaYapisi */,
+				4534F7302AB778B700023F48 /* WidgetKullanimi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		455BC4192AB3783D00001B11 /* Resources */ = {
+		4534F72F2AB778B700023F48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BC42B2AB3783E00001B11 /* LaunchScreen.storyboard in Resources */,
-				455BC4282AB3783E00001B11 /* Assets.xcassets in Resources */,
-				455BC4262AB3783D00001B11 /* Main.storyboard in Resources */,
+				4534F7412AB778B800023F48 /* LaunchScreen.storyboard in Resources */,
+				4534F73E2AB778B800023F48 /* Assets.xcassets in Resources */,
+				4534F73C2AB778B700023F48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		455BC4172AB3783D00001B11 /* Sources */ = {
+		4534F72D2AB778B700023F48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455BC4332AB37D3800001B11 /* OyunEkrani.swift in Sources */,
-				455BC4232AB3783D00001B11 /* Anasayfa.swift in Sources */,
-				455BC41F2AB3783D00001B11 /* AppDelegate.swift in Sources */,
-				455BC4352AB37DB900001B11 /* SonucEkrani.swift in Sources */,
-				455BC4212AB3783D00001B11 /* SceneDelegate.swift in Sources */,
-				4534F7012AB760AB00023F48 /* Kisiler.swift in Sources */,
+				4534F7392AB778B700023F48 /* ViewController.swift in Sources */,
+				4534F7352AB778B700023F48 /* AppDelegate.swift in Sources */,
+				4534F7372AB778B700023F48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		455BC4242AB3783D00001B11 /* Main.storyboard */ = {
+		4534F73A2AB778B700023F48 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				455BC4252AB3783D00001B11 /* Base */,
+				4534F73B2AB778B700023F48 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		455BC4292AB3783E00001B11 /* LaunchScreen.storyboard */ = {
+		4534F73F2AB778B800023F48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				455BC42A2AB3783E00001B11 /* Base */,
+				4534F7402AB778B800023F48 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		455BC42D2AB3783E00001B11 /* Debug */ = {
+		4534F7432AB778B800023F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		455BC42E2AB3783E00001B11 /* Release */ = {
+		4534F7442AB778B800023F48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +280,7 @@
 			};
 			name = Release;
 		};
-		455BC4302AB3783E00001B11 /* Debug */ = {
+		4534F7462AB778B800023F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CalismaYapisi/Info.plist;
+				INFOPLIST_FILE = WidgetKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -311,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hasanalay.CalismaYapisi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasanalay.WidgetKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		455BC4312AB3783E00001B11 /* Release */ = {
+		4534F7472AB778B800023F48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CalismaYapisi/Info.plist;
+				INFOPLIST_FILE = WidgetKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hasanalay.CalismaYapisi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasanalay.WidgetKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		455BC4162AB3783D00001B11 /* Build configuration list for PBXProject "CalismaYapisi" */ = {
+		4534F72C2AB778B700023F48 /* Build configuration list for PBXProject "WidgetKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				455BC42D2AB3783E00001B11 /* Debug */,
-				455BC42E2AB3783E00001B11 /* Release */,
+				4534F7432AB778B800023F48 /* Debug */,
+				4534F7442AB778B800023F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		455BC42F2AB3783E00001B11 /* Build configuration list for PBXNativeTarget "CalismaYapisi" */ = {
+		4534F7452AB778B800023F48 /* Build configuration list for PBXNativeTarget "WidgetKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				455BC4302AB3783E00001B11 /* Debug */,
-				455BC4312AB3783E00001B11 /* Release */,
+				4534F7462AB778B800023F48 /* Debug */,
+				4534F7472AB778B800023F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 455BC4132AB3783D00001B11 /* Project object */;
+	rootObject = 4534F7292AB778B700023F48 /* Project object */;
 }

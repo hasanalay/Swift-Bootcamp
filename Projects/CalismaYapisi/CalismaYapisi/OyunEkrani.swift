@@ -10,11 +10,17 @@ import UIKit
 class OyunEkrani: UIViewController {
 
     @IBOutlet weak var labelOyunEkrani: UILabel!
+    var kisiNesnesi:Kisiler?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         labelOyunEkrani.text = "merhaba"
+        
+        if let k = kisiNesnesi {
+            labelOyunEkrani.text = "\(k.ad!) - \(k.yas!) - \(k.boy!) - \(k.bekar!)"
+        }
     }
     
     @IBAction func butonGeri(_ sender: Any) {

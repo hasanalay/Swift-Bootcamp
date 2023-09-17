@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anasayfa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRh-Zz-0Qy">
-                                <rect key="frame" x="108" y="124" width="198" height="60"/>
+                                <rect key="frame" x="108" y="158" width="198" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +50,18 @@
                             <constraint firstItem="Ck8-Lg-fH7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v0W-FB-9sU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="00T-O5-vFO"/>
+                    <navigationItem key="navigationItem" title="Anasayfa" prompt="açıklama" id="00T-O5-vFO">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="Amn-n2-2GI">
+                            <connections>
+                                <action selector="butonEkle:" destination="BYZ-38-t0r" id="F1E-8e-X3X"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Çıkış" id="0ok-cf-Vqd">
+                            <connections>
+                                <action selector="butonCikis:" destination="BYZ-38-t0r" id="Pq1-rc-2vI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="labelAnasayfa" destination="pRh-Zz-0Qy" id="ouL-r4-bjt"/>
                         <segue destination="KBL-T9-5I6" kind="show" identifier="oyunEkraninaGecis" id="n2W-Kv-meC"/>
