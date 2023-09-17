@@ -1,0 +1,51 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0gj-Ng-20Z"; */
+"0gj-Ng-20Z.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Not a Customer"; ObjectID = "0sW-6S-uCZ"; */
+"0sW-6S-uCZ.text" = "Müşteri değilim";
+
+/* Class = "UIButton"; configuration.title = "Forgot password?"; ObjectID = "1x0-Gw-PLx"; */
+"1x0-Gw-PLx.configuration.title" = "Şifremi unuttum";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1x0-Gw-PLx"; */
+"1x0-Gw-PLx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "FbK-DK-0Mf"; */
+"FbK-DK-0Mf.configuration.title" = "Giriş Yap";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FbK-DK-0Mf"; */
+"FbK-DK-0Mf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "GD1-ph-kNt"; */
+"GD1-ph-kNt.configuration.title" = "Giriş Yap";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GD1-ph-kNt"; */
+"GD1-ph-kNt.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "You can log in with your password."; ObjectID = "GOG-Jy-JvK"; */
+"GOG-Jy-JvK.text" = "Şifrenizle giriş yapabilirsiniz";
+
+/* Class = "UILabel"; text = "Contact"; ObjectID = "QnK-XM-Jro"; */
+"QnK-XM-Jro.text" = "İletişim";
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "iFJ-Dz-AoQ"; */
+"iFJ-Dz-AoQ.text" = "Hoşgeldiniz!";
+
+/* Class = "UILabel"; text = "Remember me"; ObjectID = "iww-Qc-57d"; */
+"iww-Qc-57d.text" = "Beni hatırla";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "mNt-9E-tFg"; */
+"mNt-9E-tFg.placeholder" = "Şifre";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "o47-XI-hc2"; */
+"o47-XI-hc2.text" = "Diğer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pRx-AV-eX1"; */
+"pRx-AV-eX1.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "w0z-3s-fJa"; */
+"w0z-3s-fJa.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "y6N-IX-Y8E"; */
+"y6N-IX-Y8E.placeholder" = "Kullanıcı Adı";
