@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eIG-07-oOt">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Hesap Makinesi-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SumCalculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,14 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="avB-Xi-dLv">
-                                <rect key="frame" x="10" y="442" width="394" height="390"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="avB-Xi-dLv">
+                                <rect key="frame" x="10" y="412" width="394" height="420"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hIp-cV-hFU">
-                                        <rect key="frame" x="0.0" y="0.0" width="91" height="390"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hIp-cV-hFU">
+                                        <rect key="frame" x="0.0" y="0.0" width="87.5" height="420"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2g-bM-PuR">
-                                                <rect key="frame" x="0.0" y="0.0" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="JDd-WJ-1w4"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Ncf-hC-52A"/>
@@ -37,7 +37,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAI-I7-W2g">
-                                                <rect key="frame" x="0.0" y="100" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="110" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="bsp-aR-QMm"/>
                                                     <constraint firstAttribute="height" constant="90" id="qf2-Na-pIa"/>
@@ -51,7 +51,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVy-c2-76V">
-                                                <rect key="frame" x="0.0" y="200" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="220" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Pfz-ZP-Rlf"/>
                                                     <constraint firstAttribute="height" constant="90" id="dbj-DS-7z4"/>
@@ -65,24 +65,27 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLh-7i-eUi">
-                                                <rect key="frame" x="0.0" y="300" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="330" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="RYp-aR-eCt"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="owD-Gi-8Fd"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title=",">
+                                                <buttonConfiguration key="configuration" style="filled" title=".">
                                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                    <color key="baseBackgroundColor" red="0.20392156862745098" green="0.31276828298887122" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonComma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ntg-Nd-M2c"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IJH-Bv-QFx">
-                                        <rect key="frame" x="101" y="0.0" width="91" height="390"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IJH-Bv-QFx">
+                                        <rect key="frame" x="102.5" y="0.0" width="87" height="420"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hc-ji-PwT">
-                                                <rect key="frame" x="0.0" y="0.0" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="3jo-Mr-Pns"/>
                                                 </constraints>
@@ -95,7 +98,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcw-kv-Kl8">
-                                                <rect key="frame" x="0.0" y="100" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="110" width="87" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="Yv9-PB-heG"/>
                                                 </constraints>
@@ -108,7 +111,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSq-KY-b89">
-                                                <rect key="frame" x="0.0" y="200" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="220" width="87" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="dFk-Jh-bNS"/>
                                                 </constraints>
@@ -121,7 +124,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wI-vt-gjb">
-                                                <rect key="frame" x="0.0" y="300" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="330" width="87" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="fUI-E2-Grv"/>
                                                 </constraints>
@@ -135,11 +138,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="iRO-La-Lsz">
-                                        <rect key="frame" x="202" y="0.0" width="91" height="390"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iRO-La-Lsz">
+                                        <rect key="frame" x="204.5" y="0.0" width="87.5" height="420"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgO-kp-U6x">
-                                                <rect key="frame" x="0.0" y="0.0" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="dfa-eE-Fz4"/>
                                                 </constraints>
@@ -152,7 +155,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjh-2X-mWW">
-                                                <rect key="frame" x="0.0" y="100" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="110" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="6Ek-bc-ubA"/>
                                                 </constraints>
@@ -165,7 +168,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFc-la-nWD">
-                                                <rect key="frame" x="0.0" y="200" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="220" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="fBs-3w-WUK"/>
                                                 </constraints>
@@ -178,55 +181,61 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6l-zt-A5T">
-                                                <rect key="frame" x="0.0" y="300" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="330" width="87.5" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="NhN-1U-3Rv"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="DEL">
-                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="34"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
+                                                    <color key="baseBackgroundColor" red="0.20392156862745098" green="0.31372549019607843" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonDelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXV-LL-bWG"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-Lp-V00">
-                                        <rect key="frame" x="303" y="0.0" width="91" height="390"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-Lp-V00">
+                                        <rect key="frame" x="307" y="0.0" width="87" height="420"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRR-Tv-G1B">
-                                                <rect key="frame" x="0.0" y="0.0" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="ALO-Vy-gRk"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="AC">
-                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="34"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
+                                                    <color key="baseBackgroundColor" red="0.20392156862745098" green="0.31372549019607843" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtg-AF-fHt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXZ-eo-SbE">
-                                                <rect key="frame" x="0.0" y="100" width="91" height="90"/>
+                                                <rect key="frame" x="0.0" y="110" width="87" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="057-ad-ado"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                    <color key="baseBackgroundColor" red="0.20392156862745098" green="0.31372549019607843" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rkt-HY-mxL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dox-za-hIV">
-                                                <rect key="frame" x="0.0" y="200" width="91" height="190"/>
+                                                <rect key="frame" x="0.0" y="220" width="87" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="8Oc-4r-Rsj"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="=">
                                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                                    <color key="baseBackgroundColor" red="0.20392156862745098" green="0.31372549019607843" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="buttonAns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLX-yp-t1Z"/>
@@ -236,31 +245,33 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calc History gose here " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ne2-NI-6Ak">
-                                <rect key="frame" x="106" y="336.5" width="298" height="36"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbX-2q-Qz0">
+                                <rect key="frame" x="10" y="334.5" width="394" height="61.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ne2-NI-6Ak">
+                                <rect key="frame" x="10" y="246.5" width="394" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="numbers are coming here" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbX-2q-Qz0">
-                                <rect key="frame" x="10" y="388.5" width="394" height="37.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pbX-2q-Qz0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="C0c-E8-yrl"/>
+                            <constraint firstItem="pbX-2q-Qz0" firstAttribute="top" secondItem="Ne2-NI-6Ak" secondAttribute="bottom" constant="88" id="CHF-LD-5Nw"/>
                             <constraint firstItem="avB-Xi-dLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="JPm-8o-PvH"/>
                             <constraint firstAttribute="bottom" secondItem="avB-Xi-dLv" secondAttribute="bottom" constant="64" id="Kd6-8h-hI2"/>
                             <constraint firstItem="avB-Xi-dLv" firstAttribute="top" secondItem="pbX-2q-Qz0" secondAttribute="bottom" constant="16" id="O3J-pt-vdM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ne2-NI-6Ak" secondAttribute="trailing" constant="10" id="OxE-xB-9q2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pbX-2q-Qz0" secondAttribute="trailing" constant="10" id="gko-zl-pn4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ne2-NI-6Ak" secondAttribute="trailing" constant="10" id="qS0-I8-6Ej"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="avB-Xi-dLv" secondAttribute="trailing" constant="10" id="tKx-Qb-34g"/>
-                            <constraint firstItem="pbX-2q-Qz0" firstAttribute="top" secondItem="Ne2-NI-6Ak" secondAttribute="bottom" constant="16" id="wde-MP-fme"/>
+                            <constraint firstItem="Ne2-NI-6Ak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="yW9-KG-Kmy"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Hesap Makinesi" id="sMw-KR-K8D"/>
                     <connections>
                         <outlet property="buttonZero" destination="1wI-vt-gjb" id="gde-xf-fbA"/>
                         <outlet property="labelHistory" destination="Ne2-NI-6Ak" id="BGA-kC-5iP"/>
@@ -269,15 +280,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="4"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="3.3482142857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dah-Jd-4R4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="eIG-07-oOt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q4R-1J-TzQ">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Pgd-O6-M4n"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHP-uo-4QI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="3.3482142857142856"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

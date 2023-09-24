@@ -61,25 +61,73 @@ class ViewController: UIViewController {
         textField.text = textField.text! + String("9")
     }
     
+    @IBAction func buttonComma(_ sender: Any) { // + işareti ile aynı şekilde kontrol edilmesi gerekiyor.
+        if let text = textField.text {
+            if text.count == 0 {
+                return
+            }
+            if let lastCharacter = text.last, lastCharacter == "." {
+                return
+            }
+        }
+        textField.text = textField.text! + "."
+    }
+    
     @IBAction func buttonAns(_ sender: Any) {
-        //summing logic here
-        
-        if let numbers = textField.text {
-            labelHistory.text = numbers
+        if let inputText = textField.text, !inputText.isEmpty {
+            let components = inputText.components(separatedBy: "+")
+            
+            var totalDouble:Double = 0.0
+            var totalInt:Int = 0
+            // Her bir parçayı toplamaya ekleyelim
+            for component in components {
+                if inputText.contains(".") {
+                    if let number = Double(component) {
+                        totalDouble += number
+                    }
+                } else {
+                    if let number = Int(component){
+                        totalInt += number
+                    }
+                }
+            }
+            print("totalInt : \(totalInt) - totalDouble : \(totalDouble)")
+            if totalInt != 0 {
+                labelHistory.text = "\(inputText) = \(totalInt)"
+            }else {
+                labelHistory.text = "\(inputText) = \(totalDouble)"
+            }
+            // Sonucu etiketin metin özelliğine atayalım
+            textField.text?.removeAll()
         }
         
     }
     
+    @IBAction func buttonAC(_ sender: Any) {
+        if var text = textField.text, !text.isEmpty {
+            text.removeAll()
+            textField.text = text
+        }
+    }
+    
+    @IBAction func buttonDelete(_ sender: Any) {
+        if var text = textField.text, !text.isEmpty {
+            let lastIndex = text.index(before: text.endIndex)
+            text.remove(at: lastIndex)
+            textField.text = text
+        }
+    }
+    
     @IBAction func buttonPlus(_ sender: Any) {
 
-            if let text = textField.text {
-                // Metnin son karakterini kontrol edin
-                if let lastCharacter = text.last, lastCharacter == "+" {
-                    // Eğer metnin son karakteri "+" ise işlemi gerçekleştirme
-                    return
-                }
+        if let text = textField.text {
+            if text.count == 0{
+                return
             }
-        // Metnin son karakteri "+" değilse işlemi gerçekleştir
+            if let lastCharacter = text.last, lastCharacter == "+" {
+                return
+            }
+        }
         textField.text = textField.text! + "+"
     }
 }
