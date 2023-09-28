@@ -15,6 +15,8 @@ class KisiDetay: UIViewController {
     
     var kisi:Kisiler?
     
+    var viewModel = KisiDetayViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let k = kisi {
@@ -26,10 +28,8 @@ class KisiDetay: UIViewController {
 
     @IBAction func buttonGuncelle(_ sender: Any) {
         if let ad = tfKisiAd.text, let tel = tfKisiTelefon.text, let k = kisi {
-            guncelle(kisi_id: k.kisi_id!, kisi_ad: ad, kisi_tel: tel)
+            viewModel.guncelle(kisi_id: k.kisi_id!, kisi_ad: ad, kisi_tel: tel)
         }
     }
-    func guncelle(kisi_id:Int, kisi_ad:String, kisi_tel:String) {
-        print("Kişi Güncelle : \(kisi_id) - \(kisi_ad) - \(kisi_tel)")
-    }
+
 }

@@ -38,7 +38,7 @@ class Anasayfa: UIViewController {
     }
 }
 
-extension Anasayfa : UITableViewDelegate,UITableViewDataSource,HucreProtocol{
+extension Anasayfa : UITableViewDelegate,UITableViewDataSource,r{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return urunlerListesi.count
     }

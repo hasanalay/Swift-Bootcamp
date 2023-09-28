@@ -17,6 +17,11 @@
 		45212C0F2ABCA4380096BC07 /* KisiDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45212C0E2ABCA4380096BC07 /* KisiDetay.swift */; };
 		45212C122ABCA95B0096BC07 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45212C112ABCA95B0096BC07 /* Kisiler.swift */; };
 		45212C172ABCB7B20096BC07 /* KisilerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45212C162ABCB7B20096BC07 /* KisilerHucre.swift */; };
+		457DAD442AC354C6004CD1D8 /* KisilerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DAD432AC354C6004CD1D8 /* KisilerDaoRepository.swift */; };
+		457DAD472AC35504004CD1D8 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DAD462AC35504004CD1D8 /* AnasayfaViewModel.swift */; };
+		457DAD4B2AC35543004CD1D8 /* KisiDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DAD4A2AC35543004CD1D8 /* KisiDetayViewModel.swift */; };
+		457DAD4E2AC355AB004CD1D8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 457DAD4D2AC355AB004CD1D8 /* RxSwift */; };
+		457DAD502AC35F00004CD1D8 /* KisiKayitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DAD4F2AC35F00004CD1D8 /* KisiKayitViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,10 @@
 		45212C0E2ABCA4380096BC07 /* KisiDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetay.swift; sourceTree = "<group>"; };
 		45212C112ABCA95B0096BC07 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 		45212C162ABCB7B20096BC07 /* KisilerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucre.swift; sourceTree = "<group>"; };
+		457DAD432AC354C6004CD1D8 /* KisilerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDaoRepository.swift; sourceTree = "<group>"; };
+		457DAD462AC35504004CD1D8 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		457DAD4A2AC35543004CD1D8 /* KisiDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewModel.swift; sourceTree = "<group>"; };
+		457DAD4F2AC35F00004CD1D8 /* KisiKayitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457DAD4E2AC355AB004CD1D8 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,7 @@
 		45212C092ABCA35C0096BC07 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				457DAD422AC354A9004CD1D8 /* repo */,
 				45212C102ABCA9380096BC07 /* entity */,
 			);
 			path = data;
@@ -87,6 +98,7 @@
 		45212C0A2ABCA3740096BC07 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				457DAD452AC354E9004CD1D8 /* viewmodel */,
 				45212C132ABCB7450096BC07 /* tableview */,
 				45212C0B2ABCA3820096BC07 /* views */,
 			);
@@ -119,6 +131,24 @@
 			path = tableview;
 			sourceTree = "<group>";
 		};
+		457DAD422AC354A9004CD1D8 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				457DAD432AC354C6004CD1D8 /* KisilerDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		457DAD452AC354E9004CD1D8 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				457DAD462AC35504004CD1D8 /* AnasayfaViewModel.swift */,
+				457DAD4A2AC35543004CD1D8 /* KisiDetayViewModel.swift */,
+				457DAD4F2AC35F00004CD1D8 /* KisiKayitViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +165,9 @@
 			dependencies = (
 			);
 			name = KisilerApp;
+			packageProductDependencies = (
+				457DAD4D2AC355AB004CD1D8 /* RxSwift */,
+			);
 			productName = KisilerApp;
 			productReference = 45212BF22ABCA23F0096BC07 /* KisilerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 45212BE92ABCA23F0096BC07;
+			packageReferences = (
+				457DAD4C2AC355AB004CD1D8 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 45212BF32ABCA23F0096BC07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,6 +230,10 @@
 				45212C172ABCB7B20096BC07 /* KisilerHucre.swift in Sources */,
 				45212C0F2ABCA4380096BC07 /* KisiDetay.swift in Sources */,
 				45212BFA2ABCA23F0096BC07 /* Anasayfa.swift in Sources */,
+				457DAD442AC354C6004CD1D8 /* KisilerDaoRepository.swift in Sources */,
+				457DAD502AC35F00004CD1D8 /* KisiKayitViewModel.swift in Sources */,
+				457DAD472AC35504004CD1D8 /* AnasayfaViewModel.swift in Sources */,
+				457DAD4B2AC35543004CD1D8 /* KisiDetayViewModel.swift in Sources */,
 				45212BF62ABCA23F0096BC07 /* AppDelegate.swift in Sources */,
 				45212BF82ABCA23F0096BC07 /* SceneDelegate.swift in Sources */,
 				45212C122ABCA95B0096BC07 /* Kisiler.swift in Sources */,
@@ -412,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		457DAD4C2AC355AB004CD1D8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		457DAD4D2AC355AB004CD1D8 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 457DAD4C2AC355AB004CD1D8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 45212BEA2ABCA23F0096BC07 /* Project object */;
 }
