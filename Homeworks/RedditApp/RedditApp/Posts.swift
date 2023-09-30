@@ -12,10 +12,10 @@ class Posts {
     var postTimer:String?
     var postContent:String?
     var postContentImage:String?
-    var likes:Int?
-    var comments:Int?
+    var likes:String?
+    var comments:String?
     
-    init(subProfile: String, subName: String, postTimer: String, postContent: String, postContentImage: String, likes: Int, comments: Int) {
+    init(subProfile: String, subName: String, postTimer: String, postContent: String, postContentImage: String, likes: String, comments: String) {
         self.subProfile = subProfile
         self.subName = subName
         self.postTimer = postTimer
