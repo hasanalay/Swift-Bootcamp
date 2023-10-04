@@ -8,10 +8,19 @@
 import Foundation
 import RxSwift
 
-class KisilerDaoRepository {  // database acces object
+class KisilerDaoRepository {  // database access object
     
     var kisilerListesi = BehaviorSubject<[Kisiler]> (value: [Kisiler]())
     
+    
+    let db:FMDatabase?
+    
+    init() {
+        let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        let veriTabaniURL = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
+        
+        db = FMDatabase(path: veriTabaniURL.path)
+    }
     func kaydet (kisi_ad:String, kisi_tel:String){
         print("Kişi kaydet : \(kisi_ad) - \(kisi_tel)")
     }
@@ -28,14 +37,40 @@ class KisilerDaoRepository {  // database acces object
     }
     
     func kisileriYukle (){
-    var liste = [Kisiler]()
-        let k1 = Kisiler(kisi_id: 1, kisi_ad: "Hasan", kisi_tel: "12344")
-        let k2 = Kisiler(kisi_id: 2, kisi_ad: "Özlem", kisi_tel: "1234")
-        let k3 = Kisiler(kisi_id: 3, kisi_ad: "Mehmet", kisi_tel: "12345")
-        liste.append(k1) //0.
-        liste.append(k2) //1.
-        liste.append(k3) //2.
         
-        kisilerListesi.onNext(liste)
+        
+        db?.open()
+        var liste = [Kisiler]()
+        do{
+            let rs = try db!.executeQuery("SELECT * FROM kisiler", values: nil)
+            while rs.next(){
+                let kisi_id = Int(rs.string(forColumn: "kisi_id"))!
+                let kisi_ad = rs.string(forColumn: "kisi_ad")!
+                let kisi_tel = rs.string(forColumn: "kisi_tel")!
+                
+                let kisi = Kisiler(kisi_id: kisi_id, kisi_ad: kisi_ad, kisi_tel: kisi_tel)
+                liste.append(kisi)
+            }
+            kisilerListesi.onNext(liste)
+        }catch{
+            print(error.localizedDescription)
+        }
+        db?close()
     }
+    
+    
+    func veritabaniKopyala(){
+            let bundleYolu = Bundle.main.path(forResource: "rehber", ofType: ".sqlite")
+            let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+            let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
+            let fileManager = FileManager.default
+            if fileManager.fileExists(atPath: kopyalanacakYer.path){
+                print("Veritabanı zaten var")
+            }else{
+                do{
+                    try fileManager.copyItem(atPath: bundleYolu!, toPath: kopyalanacakYer.path)
+                }catch{}
+            }
+        }
+
 }

@@ -22,6 +22,12 @@
 		457DAD4B2AC35543004CD1D8 /* KisiDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DAD4A2AC35543004CD1D8 /* KisiDetayViewModel.swift */; };
 		457DAD4E2AC355AB004CD1D8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 457DAD4D2AC355AB004CD1D8 /* RxSwift */; };
 		457DAD502AC35F00004CD1D8 /* KisiKayitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457DAD4F2AC35F00004CD1D8 /* KisiKayitViewModel.swift */; };
+		45BE04982AC5ED4B0078CE76 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE048D2AC5ED4A0078CE76 /* FMDatabaseAdditions.m */; };
+		45BE04992AC5ED4B0078CE76 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE048E2AC5ED4A0078CE76 /* FMDatabasePool.m */; };
+		45BE049A2AC5ED4B0078CE76 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE048F2AC5ED4A0078CE76 /* FMResultSet.m */; };
+		45BE049B2AC5ED4B0078CE76 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE04922AC5ED4A0078CE76 /* FMDatabase.m */; };
+		45BE049C2AC5ED4B0078CE76 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE04962AC5ED4B0078CE76 /* FMDatabaseQueue.m */; };
+		45BE04A02AC5EF1A0078CE76 /* rehber.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 45BE049F2AC5EF1A0078CE76 /* rehber.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,20 @@
 		457DAD462AC35504004CD1D8 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
 		457DAD4A2AC35543004CD1D8 /* KisiDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewModel.swift; sourceTree = "<group>"; };
 		457DAD4F2AC35F00004CD1D8 /* KisiKayitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitViewModel.swift; sourceTree = "<group>"; };
+		45BE048B2AC5EBD10078CE76 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		45BE048C2AC5ED4A0078CE76 /* KisilerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KisilerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		45BE048D2AC5ED4A0078CE76 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		45BE048E2AC5ED4A0078CE76 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		45BE048F2AC5ED4A0078CE76 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		45BE04902AC5ED4A0078CE76 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		45BE04912AC5ED4A0078CE76 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		45BE04922AC5ED4A0078CE76 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		45BE04932AC5ED4A0078CE76 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		45BE04942AC5ED4A0078CE76 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		45BE04952AC5ED4A0078CE76 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		45BE04962AC5ED4B0078CE76 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		45BE04972AC5ED4B0078CE76 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		45BE049F2AC5EF1A0078CE76 /* rehber.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = rehber.sqlite; path = ../../../rehber.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			children = (
 				45212BF42ABCA23F0096BC07 /* KisilerApp */,
 				45212BF32ABCA23F0096BC07 /* Products */,
+				45BE048A2AC5EBD10078CE76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +103,19 @@
 				45212BFE2ABCA2400096BC07 /* Assets.xcassets */,
 				45212C002ABCA2400096BC07 /* LaunchScreen.storyboard */,
 				45212C032ABCA2400096BC07 /* Info.plist */,
+				45BE049F2AC5EF1A0078CE76 /* rehber.sqlite */,
+				45BE04952AC5ED4A0078CE76 /* FMDatabase.h */,
+				45BE04922AC5ED4A0078CE76 /* FMDatabase.m */,
+				45BE04972AC5ED4B0078CE76 /* FMDatabaseAdditions.h */,
+				45BE048D2AC5ED4A0078CE76 /* FMDatabaseAdditions.m */,
+				45BE04902AC5ED4A0078CE76 /* FMDatabasePool.h */,
+				45BE048E2AC5ED4A0078CE76 /* FMDatabasePool.m */,
+				45BE04942AC5ED4A0078CE76 /* FMDatabaseQueue.h */,
+				45BE04962AC5ED4B0078CE76 /* FMDatabaseQueue.m */,
+				45BE04912AC5ED4A0078CE76 /* FMDB.h */,
+				45BE04932AC5ED4A0078CE76 /* FMResultSet.h */,
+				45BE048F2AC5ED4A0078CE76 /* FMResultSet.m */,
+				45BE048C2AC5ED4A0078CE76 /* KisilerApp-Bridging-Header.h */,
 			);
 			path = KisilerApp;
 			sourceTree = "<group>";
@@ -149,6 +183,14 @@
 			path = viewmodel;
 			sourceTree = "<group>";
 		};
+		45BE048A2AC5EBD10078CE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45BE048B2AC5EBD10078CE76 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +226,7 @@
 				TargetAttributes = {
 					45212BF12ABCA23F0096BC07 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -214,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45212C022ABCA2400096BC07 /* LaunchScreen.storyboard in Resources */,
+				45BE04A02AC5EF1A0078CE76 /* rehber.sqlite in Resources */,
 				45212BFF2ABCA2400096BC07 /* Assets.xcassets in Resources */,
 				45212BFD2ABCA23F0096BC07 /* Main.storyboard in Resources */,
 			);
@@ -228,15 +272,20 @@
 			files = (
 				45212C0D2ABCA41E0096BC07 /* KisiKayit.swift in Sources */,
 				45212C172ABCB7B20096BC07 /* KisilerHucre.swift in Sources */,
+				45BE049A2AC5ED4B0078CE76 /* FMResultSet.m in Sources */,
+				45BE049B2AC5ED4B0078CE76 /* FMDatabase.m in Sources */,
+				45BE04992AC5ED4B0078CE76 /* FMDatabasePool.m in Sources */,
 				45212C0F2ABCA4380096BC07 /* KisiDetay.swift in Sources */,
 				45212BFA2ABCA23F0096BC07 /* Anasayfa.swift in Sources */,
 				457DAD442AC354C6004CD1D8 /* KisilerDaoRepository.swift in Sources */,
 				457DAD502AC35F00004CD1D8 /* KisiKayitViewModel.swift in Sources */,
+				45BE049C2AC5ED4B0078CE76 /* FMDatabaseQueue.m in Sources */,
 				457DAD472AC35504004CD1D8 /* AnasayfaViewModel.swift in Sources */,
 				457DAD4B2AC35543004CD1D8 /* KisiDetayViewModel.swift in Sources */,
 				45212BF62ABCA23F0096BC07 /* AppDelegate.swift in Sources */,
 				45212BF82ABCA23F0096BC07 /* SceneDelegate.swift in Sources */,
 				45212C122ABCA95B0096BC07 /* Kisiler.swift in Sources */,
+				45BE04982AC5ED4B0078CE76 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -398,6 +448,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasanalay.KisilerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KisilerApp/KisilerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -425,6 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasanalay.KisilerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KisilerApp/KisilerApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

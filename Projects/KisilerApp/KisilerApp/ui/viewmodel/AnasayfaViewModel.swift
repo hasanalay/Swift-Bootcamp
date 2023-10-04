@@ -13,6 +13,7 @@ class AnasayfaViewModel {
     var kisilerListesi = BehaviorSubject<[Kisiler]> (value: [Kisiler]())
     
     init(){
+        kRepo.veritabaniKopyala()
         kisilerListesi = kRepo.kisilerListesi
     }
     func ara(aramaKelimesi:String){

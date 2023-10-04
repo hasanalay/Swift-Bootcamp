@@ -47,7 +47,7 @@ class Home: UIViewController {
         postsTableView.delegate = self
         postsTableView.dataSource = self
         
-        postsTableView.separatorColor = UIColor(white: 0.95, alpha: 1)
+        postsTableView.separatorColor = UIColor(named: "background")
         
         
     }
@@ -74,7 +74,7 @@ extension Home : UITableViewDelegate, UITableViewDataSource {
         hucre.labelLikes.text = post.likes
         hucre.labelComments.text = post.comments
         
-        hucre.backgroundColor = UIColor.white
+        hucre.backgroundColor = UIColor(named: "background")
         hucre.arkaplan.layer.cornerRadius = 10
         hucre.selectionStyle = .none
         
